@@ -1,7 +1,7 @@
 a,b=map(int,input().split())
 i,j=map(int,input().split())
 
-if(a>=i and i>j) or (a>i and i>=j) or (a>i and i>j):
+if(a>i and b>j):
     print('1')
 else:
     print('0')

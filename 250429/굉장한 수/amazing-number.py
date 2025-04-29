@@ -1,13 +1,6 @@
-n=int(input())
+N = int(input())
 
-if(n%3==0 and n%2!=0):
-    print('true')
-
-elif(n%5==0 and n%2==0):
-    print('ture')
+if (N % 2 == 1 and N % 3 == 0) or (N % 2 == 0 and N % 5 == 0):
+    print("true")
 else:
-    print('false')
-
-
-
-    
+    print("false")
